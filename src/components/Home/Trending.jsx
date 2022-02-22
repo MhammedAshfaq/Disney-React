@@ -7,7 +7,6 @@ import { selectTrending } from '../../features/movie/movieSlice'
 
 const Trending = () => {
     const trending = useSelector(selectTrending);
-    console.log(trending);
     return (
         <Container>
             <h4>Trending </h4>
@@ -17,7 +16,7 @@ const Trending = () => {
                         return (
                             <Wrap key={key}>
                                 {movie.id}
-                                <Link to={'/detail' + movie.id}>
+                                <Link to={'/detail/' + movie.id}>
                                     <img src={movie.cardImg} alt={movie.title} />
                                 </Link>
                             </Wrap>

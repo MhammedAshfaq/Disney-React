@@ -23,7 +23,6 @@ const Home = () => {
     useEffect(() => {
         db.collection('movies').onSnapshot((snapshot) => {
             snapshot.docs.map((doc) => {
-                // console.log(recommends);
                 switch (doc.data().type) {
                     case 'trending':
                         // trending.push({ id: doc.id, ...doc.data() })
