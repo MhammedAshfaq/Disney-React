@@ -26,7 +26,7 @@ const Details = () => {
             </Background>
 
             <ImageTitle>
-                <img alt={movieDetails.title} src={movieDetails.titleImg}/>
+                <img alt={movieDetails.title} src={movieDetails.titleImg} />
             </ImageTitle>
 
             <ContentMeta>
@@ -76,10 +76,6 @@ const Background = styled.div`
         width:100vw;
         height:100vh;
         object-fit:cover;
-
-        @media (max-width: 768px) {
-            // width: initial;
-        }
     }
 `;
 const ImageTitle = styled.div`
