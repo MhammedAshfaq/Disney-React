@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Disney-React/static/css/main.05507cf4.css",
+    "main.js": "/Disney-React/static/js/main.9f19a977.js",
+    "static/media/slick.svg": "/Disney-React/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Disney-React/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Disney-React/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Disney-React/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/Disney-React/index.html",
+    "main.05507cf4.css.map": "/Disney-React/static/css/main.05507cf4.css.map",
+    "main.9f19a977.js.map": "/Disney-React/static/js/main.9f19a977.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.05507cf4.css",
+    "static/js/main.9f19a977.js"
+  ]
+}
