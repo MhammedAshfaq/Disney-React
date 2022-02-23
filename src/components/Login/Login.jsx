@@ -6,7 +6,7 @@ const Login = () => {
         <Container>
             <Content>
                 <CTA>
-                    <CTAlogoOne src="/images/cta-logo-one.svg" alt="photo" />
+                    <CTAlogoOne src="/images/cta-logo-one.svg" alt="" />
                     <SignUp>GET ALL THERE</SignUp>
                     <Description>Get Premier Access to Raya and thr Last Dragon for an additional fee with a Disney+ subscription. As of 03/26/22, the proce of Disney Bundle will increase by $1</Description>
                     <CTAlogoTwo src="/images/cta-logo-two.png"/>
